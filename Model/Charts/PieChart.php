@@ -40,14 +40,6 @@ class PieChart extends Chart
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function getPackage()
-    {
-        return 'corechart';
-    }
-
-    /**
      * @return PieChartOptions
      */
     public function getOptions()
