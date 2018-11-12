@@ -12,46 +12,46 @@
 namespace MXT\EChartBundle\Model\Options;
 
 /**
- * Legend
+ * Title
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class Legend
+class Title
 {
     /**
-     * Orient
+     * Text
      * @var string
      */
-    protected $orient;
+    protected $text;
 
     /**
-     * Data
+     * SubText
      * @var string
      */
-    protected $data;
+    protected $subtext;
 
     use AxisTrait;
 
     /**
-     * @param string $orient
+     * @param string $text
      *
      * @return $this
      */
-    public function setOrient($orient)
+    public function setText($text)
     {
-        $this->orient = $orient;
+        $this->text = $text;
 
         return $this;
     }
 
     /**
-     * @param string $data
+     * @param string $subtext
      *
      * @return $this
      */
-    public function setData($data)
+    public function setSubtext($subtext)
     {
-        $this->data = $data;
+        $this->subtext = $subtext;
 
         return $this;
     }

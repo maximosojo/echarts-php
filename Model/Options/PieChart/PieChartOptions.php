@@ -11,14 +11,27 @@
 
 namespace MXT\EChartBundle\Model\Options\PieChart;
 
-use MXT\EChartBundle\Model\Options\Legend;
+use MXT\EChartBundle\Model\Options\Title;
 use MXT\EChartBundle\Model\Options\Tooltip;
+use MXT\EChartBundle\Model\Options\Legend;
+use MXT\EChartBundle\Model\Options\Series;
 
 /**
+ * PieChartOptions
+ * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
 class PieChartOptions
 {
+    /**
+     * Text to display for title.
+     *
+     * Default: no title
+     *
+     * @var string
+     */
+    protected $title;
+
 	/**
      * @var Tooltip
      */
@@ -30,14 +43,29 @@ class PieChartOptions
     protected $legend;
 
     /**
+     * @var Series
+     */
+    protected $series;
+
+    /**
      * PieChartOptions constructor.
      */
     public function __construct()
     {
         parent::__construct();
 
+        $this->title = new Title();
         $this->tooltip = new Tooltip();
         $this->legend = new Legend();
+        $this->series = new Series();
+    }
+
+    /**
+     * @return Title
+     */
+    public function getTitle()
+    {
+        return $this->title;
     }
 
     /**
@@ -54,5 +82,13 @@ class PieChartOptions
     public function getLegend()
     {
         return $this->legend;
+    }
+
+    /**
+     * @return Series
+     */
+    public function getSeries()
+    {
+        return $this->series;
     }
 }

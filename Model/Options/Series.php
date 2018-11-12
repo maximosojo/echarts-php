@@ -16,42 +16,22 @@ namespace MXT\EChartBundle\Model\Options;
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class Legend
+class Series
 {
     /**
-     * Orient
+     * Name
      * @var string
      */
-    protected $orient;
+    protected $name;
 
     /**
-     * Data
-     * @var string
-     */
-    protected $data;
-
-    use AxisTrait;
-
-    /**
-     * @param string $orient
+     * @param string $name
      *
      * @return $this
      */
-    public function setOrient($orient)
+    public function setName($name)
     {
-        $this->orient = $orient;
-
-        return $this;
-    }
-
-    /**
-     * @param string $data
-     *
-     * @return $this
-     */
-    public function setData($data)
-    {
-        $this->data = $data;
+        $this->name = $name;
 
         return $this;
     }
