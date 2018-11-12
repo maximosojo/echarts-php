@@ -25,6 +25,38 @@ class Series
     protected $name;
 
     /**
+     * Data
+     * @var string
+     */
+    protected $data;
+
+    /**
+     * Type
+     * @var string
+     */
+    protected $type;
+
+    /**
+     * Radius
+     * @var string
+     */
+    protected $radius;
+
+    /**
+     * Center
+     * @var string
+     */
+    protected $center;
+
+    /**
+     * Legend constructor.
+     */
+    public function __construct()
+    {
+        $this->data = new Data();
+    }
+
+    /**
      * @param string $name
      *
      * @return $this
@@ -32,6 +64,52 @@ class Series
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * @param string $data
+     *
+     * @return $this
+     */
+    public function getData($data)
+    {
+        return $this->data;
+    }
+
+    /**
+     * @param string $type
+     *
+     * @return $this
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+
+        return $this;
+    }
+
+    /**
+     * @param string $radius
+     *
+     * @return $this
+     */
+    public function setRadius($radius)
+    {
+        $this->radius = $radius;
+
+        return $this;
+    }
+
+    /**
+     * @param string $center
+     *
+     * @return $this
+     */
+    public function setCenter($center)
+    {
+        $this->center = $center;
 
         return $this;
     }

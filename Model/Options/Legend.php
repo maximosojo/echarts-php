@@ -33,6 +33,14 @@ class Legend
     use AxisTrait;
 
     /**
+     * Legend constructor.
+     */
+    public function __construct()
+    {
+        $this->data = new Data();
+    }
+
+    /**
      * @param string $orient
      *
      * @return $this
@@ -49,10 +57,8 @@ class Legend
      *
      * @return $this
      */
-    public function setData($data)
+    public function getData($data)
     {
-        $this->data = $data;
-
-        return $this;
+        return $this->data;
     }
 }
