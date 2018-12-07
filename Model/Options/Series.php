@@ -12,7 +12,7 @@
 namespace MXT\EChartBundle\Model\Options;
 
 /**
- * Legend
+ * Series
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */

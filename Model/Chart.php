@@ -14,6 +14,8 @@ namespace MXT\EChartBundle\Model;
 use MXT\EChartBundle\Interfaces\ChartOptionsInterface;
 
 /**
+ * Chart
+ * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
 abstract class Chart

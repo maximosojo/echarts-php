@@ -12,8 +12,11 @@
 namespace MXT\EChartBundle\Interfaces;
 
 /**
+ * ChartOptionsInterface
+ * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
 interface ChartOptionsInterface
 {
+	
 }
