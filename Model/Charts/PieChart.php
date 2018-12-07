@@ -36,7 +36,7 @@ class PieChart extends Chart
      */
     public function getType()
     {
-        return 'PieChart';
+        return 'pie';
     }
 
     /**
