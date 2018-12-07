@@ -15,6 +15,7 @@ use MXT\EChartBundle\Model\Options\Title;
 use MXT\EChartBundle\Model\Options\Tooltip;
 use MXT\EChartBundle\Model\Options\Legend;
 use MXT\EChartBundle\Model\Options\Series;
+use MXT\EChartBundle\Model\Options\Toolbox;
 
 /**
  * PieChartOptions
@@ -48,6 +49,11 @@ class PieChartOptions
     protected $series;
 
     /**
+     * @var Toolbox
+     */
+    protected $toolbox;
+
+    /**
      * PieChartOptions constructor.
      */
     public function __construct()
@@ -58,6 +64,7 @@ class PieChartOptions
         $this->tooltip = new Tooltip();
         $this->legend = new Legend();
         $this->series = new Series();
+        $this->toolbox = new Toolbox();
     }
 
     /**
@@ -90,5 +97,13 @@ class PieChartOptions
     public function getSeries()
     {
         return $this->series;
+    }
+
+    /**
+     * @return Toolbox
+     */
+    public function getToolbox()
+    {
+        return $this->toolbox;
     }
 }
