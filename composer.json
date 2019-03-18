@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Bundle Symfony",
   "keywords": ["chart","echart"],
-  "homepage": "https://atechnologies.com.ve",
+  "homepage": "https://maxtoan.github.io/echart-bundle",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
