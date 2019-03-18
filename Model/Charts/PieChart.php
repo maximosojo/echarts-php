@@ -29,6 +29,7 @@ class PieChart extends Chart
         parent::__construct();
 
         $this->options = new PieChartOptions();
+        $this->options->getSeries()->setType($this->getType());
     }
 
     /**
