@@ -25,12 +25,6 @@ class Series
     protected $name;
 
     /**
-     * Data
-     * @var string
-     */
-    protected $data;
-
-    /**
      * Type
      * @var string
      */
@@ -48,6 +42,8 @@ class Series
      */
     protected $center;
 
+    use \Maxtoan\EChartBundle\Model\Traits\DataTrait;
+    
     /**
      * Legend constructor.
      */
@@ -66,16 +62,6 @@ class Series
         $this->name = $name;
 
         return $this;
-    }
-
-    /**
-     * @param string $data
-     *
-     * @return $this
-     */
-    public function getData($data)
-    {
-        return $this->data;
     }
 
     /**

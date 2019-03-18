@@ -15,6 +15,8 @@ use Maxtoan\EChartBundle\Model\Options\Tooltip;
 use Maxtoan\EChartBundle\Model\Options\Series;
 use Maxtoan\EChartBundle\Model\Options\Toolbox;
 use Maxtoan\EChartBundle\Model\Options\Legend;
+use Maxtoan\EChartBundle\Model\Options\XAxis;
+use Maxtoan\EChartBundle\Model\Options\YAxis;
 
 /**
  * BarChartOptions
@@ -39,6 +41,16 @@ class BarChartOptions
     protected $toolbox;
 
     /**
+     * @var XAxis
+     */
+    protected $xAxis;
+
+    /**
+     * @var YAxis
+     */
+    protected $yAxis;
+
+    /**
      * BarChartOptions constructor.
      */
     public function __construct()
@@ -47,6 +59,8 @@ class BarChartOptions
     	$this->legend = new Legend();
         $this->series = new Series();
         $this->toolbox = new Toolbox();
+        $this->xAxis = new XAxis();
+        $this->yAxis = new YAxis();
     }
 
     /**
@@ -79,5 +93,21 @@ class BarChartOptions
     public function getToolbox()
     {
         return $this->toolbox;
+    }
+
+    /**
+     * @return XAxis
+     */
+    public function getXAxis()
+    {
+        return $this->xAxis;
+    }
+
+    /**
+     * @return YAxis
+     */
+    public function getYAxis()
+    {
+        return $this->yAxis;
     }
 }
