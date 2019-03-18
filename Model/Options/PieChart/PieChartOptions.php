@@ -58,8 +58,6 @@ class PieChartOptions
      */
     public function __construct()
     {
-        parent::__construct();
-
         $this->title = new Title();
         $this->tooltip = new Tooltip();
         $this->legend = new Legend();

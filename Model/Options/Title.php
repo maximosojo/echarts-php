@@ -30,7 +30,7 @@ class Title
      */
     protected $subtext;
 
-    use AxisTrait;
+    use \Maxtoan\EChartBundle\Model\Traits\AxisTrait;
 
     /**
      * @param string $text

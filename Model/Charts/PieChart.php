@@ -12,7 +12,7 @@
 namespace Maxtoan\EChartBundle\Model\Charts;
 
 use Maxtoan\EChartBundle\Model\Chart;
-use Maxtoan\EChartBundle\Model\Charts\Options\PieChart\PieChartOptions;
+use Maxtoan\EChartBundle\Model\Options\PieChart\PieChartOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>

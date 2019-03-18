@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Options;
+namespace Maxtoan\EChartBundle\Model\Traits;
 
 /**
  * AxisTrait
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class AxisTrait
+trait AxisTrait
 {
     /**
      *  x

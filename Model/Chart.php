@@ -30,6 +30,10 @@ abstract class Chart
      */
     protected $options;
 
+    public function __construct()
+    {
+    }
+
     /**
      * Returns the instance options.
      */

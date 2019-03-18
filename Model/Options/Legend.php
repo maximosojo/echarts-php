@@ -30,7 +30,7 @@ class Legend
      */
     protected $data;
 
-    use AxisTrait;
+    use \Maxtoan\EChartBundle\Model\Traits\AxisTrait;
 
     /**
      * Legend constructor.
