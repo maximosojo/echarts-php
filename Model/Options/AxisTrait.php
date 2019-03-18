@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\Model\Options;
+namespace Maxtoan\EChartBundle\Model\Options;
 
 /**
  * AxisTrait

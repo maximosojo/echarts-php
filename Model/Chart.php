@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\Model;
+namespace Maxtoan\EChartBundle\Model;
 
-use MXT\EChartBundle\Interfaces\ChartOptionsInterface;
+use Maxtoan\EChartBundle\Interfaces\ChartOptionsInterface;
 
 /**
  * Chart

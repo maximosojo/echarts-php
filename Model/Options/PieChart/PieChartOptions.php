@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\Model\Options\PieChart;
+namespace Maxtoan\EChartBundle\Model\Options\PieChart;
 
-use MXT\EChartBundle\Model\Options\Title;
-use MXT\EChartBundle\Model\Options\Tooltip;
-use MXT\EChartBundle\Model\Options\Legend;
-use MXT\EChartBundle\Model\Options\Series;
-use MXT\EChartBundle\Model\Options\Toolbox;
+use Maxtoan\EChartBundle\Model\Options\Title;
+use Maxtoan\EChartBundle\Model\Options\Tooltip;
+use Maxtoan\EChartBundle\Model\Options\Legend;
+use Maxtoan\EChartBundle\Model\Options\Series;
+use Maxtoan\EChartBundle\Model\Options\Toolbox;
 
 /**
  * PieChartOptions

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\DependencyInjection;
+namespace Maxtoan\EChartBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('mxt_echarts');
+        $rootNode = $treeBuilder->root('maxtoan_echarts');
 
         $rootNode
             ->children()

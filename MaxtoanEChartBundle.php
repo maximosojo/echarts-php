@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle;
+namespace Maxtoan\EChartBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * MXTEChartBundle
+ * MaxtoanEChartBundle
  *
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class MXTEChartBundle extends Bundle
+class MaxtoanEChartBundle extends Bundle
 {
 }

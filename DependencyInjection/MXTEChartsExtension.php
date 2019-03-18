@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\DependencyInjection;
+namespace Maxtoan\EChartBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -17,11 +17,11 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * MXTEChartsExtension
+ * MaxtoanEChartsExtension
  *
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class MXTEChartsExtension extends Extension
+class MaxtoanEChartsExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -31,8 +31,8 @@ class MXTEChartsExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('mxt_echarts.version', $config['version']);
-        $container->setParameter('mxt_echarts.locale', $config['locale']);
+        $container->setParameter('maxtoan_echarts.version', $config['version']);
+        $container->setParameter('maxtoan_echarts.locale', $config['locale']);
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');

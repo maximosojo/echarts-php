@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace MXT\EChartBundle\Interfaces;
+namespace Maxtoan\EChartBundle\Interfaces;
 
 /**
  * ChartOptionsInterface

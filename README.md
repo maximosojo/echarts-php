@@ -1,12 +1,12 @@
-MXTEChartBundle
+MaxtoanEChartBundle
 ========================
 
-MXTEChartBundle desarrollado para Symfony 2.+, 3.+, proporciona una serie de gráficas.
+MaxtoanEChartBundle desarrollado para Symfony 2.+, 3.+, proporciona una serie de gráficas.
 
 ## Instalación
 
 ``` bash
-$ composer require mxt/echart-bundle
+$ composer require maxtoan/echart-bundle
 ```
 
 ## Licencia
