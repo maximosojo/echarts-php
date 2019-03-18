@@ -25,12 +25,6 @@ class Series
     protected $name;
 
     /**
-     * Type
-     * @var string
-     */
-    protected $type;
-
-    /**
      * Radius
      * @var string
      */
@@ -42,8 +36,9 @@ class Series
      */
     protected $center;
 
+    use \Maxtoan\EChartBundle\Model\Traits\TypeTrait;
     use \Maxtoan\EChartBundle\Model\Traits\DataTrait;
-    
+
     /**
      * Legend constructor.
      */
@@ -60,18 +55,6 @@ class Series
     public function setName($name)
     {
         $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * @param string $type
-     *
-     * @return $this
-     */
-    public function setType($type)
-    {
-        $this->type = $type;
 
         return $this;
     }

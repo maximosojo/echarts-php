@@ -18,8 +18,9 @@ namespace Maxtoan\EChartBundle\Model\Options;
  */
 class XAxis
 {
+    use \Maxtoan\EChartBundle\Model\Traits\TypeTrait;
     use \Maxtoan\EChartBundle\Model\Traits\DataTrait;
-
+    
     /**
      * Legend constructor.
      */

@@ -9,23 +9,30 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Options;
+namespace Maxtoan\EChartBundle\Model\Traits;
 
 /**
- * YAxis
+ * TypeTrait
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class YAxis
+trait TypeTrait
 {
-    use \Maxtoan\EChartBundle\Model\Traits\TypeTrait;
-    use \Maxtoan\EChartBundle\Model\Traits\DataTrait;
-    
     /**
-     * Legend constructor.
+     * Type
+     * @var string
      */
-    public function __construct()
+    protected $type;
+
+    /**
+     * @param string $type
+     *
+     * @return $this
+     */
+    public function setType($type)
     {
-        $this->data = new Data();
-    }	
+        $this->type = $type;
+
+        return $this;
+    }
 }
