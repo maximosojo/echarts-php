@@ -1,9 +1,9 @@
 {
-  "name": "maxtoan/echart-bundle",
-  "type": "symfony-bundle",
-  "description": "Bundle Symfony",
-  "keywords": ["chart","echart"],
-  "homepage": "https://maxtoan.github.io/echart-bundle",
+  "name": "maximosojo/echarts-php",
+  "type": "php-package",
+  "description": "ECharts PHP",
+  "keywords": ["charts","echarts"],
+  "homepage": "https://maximosojo.github.io/echarts-php",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
@@ -16,6 +16,6 @@
       "php": ">=5.3.2"
   },
   "autoload": {
-      "psr-4": { "Maxtoan\\EChartBundle\\": "" }
+      "psr-4": { "Maximosojo\\EChartsPHP\\": "" }
   }
 }
