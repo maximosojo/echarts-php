@@ -25,12 +25,31 @@ class Legend
     protected $orient;
 
     /**
-     * Data
+     * Right
      * @var string
      */
-    protected $data;
+    protected $right;
 
-    use \Maximosojo\EChartsPHP\Traits\AxisTrait;
+    /**
+     * top
+     * @var string
+     */
+    protected $top;
+
+    /**
+     * Bottom
+     * @var string
+     */
+    protected $bottom;
+
+    /**
+     * Selected
+     * @var string
+     */
+    protected $selected;
+
+    // use \Maximosojo\EChartsPHP\Traits\AxisTrait;
+    use \Maximosojo\EChartsPHP\Traits\DataTrait;
 
     /**
      * Legend constructor.
@@ -53,12 +72,50 @@ class Legend
     }
 
     /**
-     * @param string $data
+     * @param string $right
      *
      * @return $this
      */
-    public function getData($data)
+    public function setRight($right)
     {
-        return $this->data;
+        $this->right = $right;
+
+        return $this;
+    }
+
+    /**
+     * @param string $top
+     *
+     * @return $this
+     */
+    public function setTop($top)
+    {
+        $this->top = $top;
+
+        return $this;
+    }
+
+    /**
+     * @param string $bottom
+     *
+     * @return $this
+     */
+    public function setBottom($bottom)
+    {
+        $this->bottom = $bottom;
+
+        return $this;
+    }
+
+    /**
+     * @param string $selected
+     *
+     * @return $this
+     */
+    public function setSelected($selected)
+    {
+        $this->selected = $selected;
+
+        return $this;
     }
 }

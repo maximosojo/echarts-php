@@ -11,8 +11,8 @@
 
 namespace Maximosojo\EChartsPHP\Charts;
 
-use Maximosojo\EChartsPHP\Chart;
-use Maximosojo\EChartsPHP\Options\PieChart\PieChartOptions;
+use Maximosojo\EChartsPHP\Model\Chart;
+use Maximosojo\EChartsPHP\Options\Pie\PieOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>
@@ -20,7 +20,7 @@ use Maximosojo\EChartsPHP\Options\PieChart\PieChartOptions;
 class PieChart extends Chart
 {
     /**
-     * @var PieChartOptions
+     * @var PieOptions
      */
     protected $options;
 
@@ -28,7 +28,7 @@ class PieChart extends Chart
     {
         parent::__construct();
 
-        $this->options = new PieChartOptions();
+        $this->options = new PieOptions();
         $this->options->getSeries()->setType($this->getType());
     }
 
@@ -41,7 +41,7 @@ class PieChart extends Chart
     }
 
     /**
-     * @return PieChartOptions
+     * @return PieOptions
      */
     public function getOptions()
     {
@@ -49,7 +49,7 @@ class PieChart extends Chart
     }
 
     /**
-     * @param $options PieChartOptions
+     * @param $options PieOptions
      *
      * @return PieChart
      */

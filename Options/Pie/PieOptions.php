@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Options\PieChart;
+namespace Maximosojo\EChartsPHP\Options\Pie;
 
 use Maximosojo\EChartsPHP\Options\Title;
 use Maximosojo\EChartsPHP\Options\Tooltip;
@@ -18,11 +18,11 @@ use Maximosojo\EChartsPHP\Options\Series;
 use Maximosojo\EChartsPHP\Options\Toolbox;
 
 /**
- * PieChartOptions
+ * PieOptions
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class PieChartOptions
+class PieOptions
 {
     /**
      * Text to display for title.
@@ -54,7 +54,7 @@ class PieChartOptions
     protected $toolbox;
 
     /**
-     * PieChartOptions constructor.
+     * PieOptions constructor.
      */
     public function __construct()
     {

@@ -30,7 +30,13 @@ class Title
      */
     protected $subtext;
 
-    use \Maximosojo\EChartsPHP\Traits\AxisTrait;
+    /**
+     * Left
+     * @var string
+     */
+    protected $left;
+
+    // use \Maximosojo\EChartsPHP\Traits\AxisTrait;
 
     /**
      * @param string $text
@@ -52,6 +58,18 @@ class Title
     public function setSubtext($subtext)
     {
         $this->subtext = $subtext;
+
+        return $this;
+    }
+
+    /**
+     * @param string $left
+     *
+     * @return $this
+     */
+    public function setLeft($left)
+    {
+        $this->left = $left;
 
         return $this;
     }

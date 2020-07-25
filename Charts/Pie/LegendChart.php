@@ -9,15 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP;
+namespace Maximosojo\EChartsPHP\Charts\Pie;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Maximosojo\EChartsPHP\Options\PieChart\PieChartOptions;
+use Maximosojo\EChartsPHP\Charts\PieChart;
 
 /**
- * EChartsPHP
- *
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class EChartsPHP extends Bundle
+class LegendChart extends PieChart
 {
 }
