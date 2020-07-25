@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Options;
+namespace Maximosojo\EChartsPHP\Model\Options;
 
 /**
  * Toolbox

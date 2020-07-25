@@ -1,7 +1,7 @@
-MaxtoanEChartBundle
+MaxtoanEChartsPHP
 ========================
 
-MaxtoanEChartBundle desarrollado para Symfony 2.+, 3.+, proporciona una serie de gráficas.
+MaxtoanEChartsPHP desarrollado para Symfony 2.+, 3.+, proporciona una serie de gráficas.
 
 ## Instalación
 

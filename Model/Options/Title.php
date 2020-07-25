@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Options;
+namespace Maximosojo\EChartsPHP\Model\Options;
 
 /**
  * Title
@@ -30,7 +30,7 @@ class Title
      */
     protected $subtext;
 
-    use \Maxtoan\EChartBundle\Model\Traits\AxisTrait;
+    use \Maximosojo\EChartsPHP\Model\Traits\AxisTrait;
 
     /**
      * @param string $text

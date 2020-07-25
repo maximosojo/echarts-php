@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Charts;
+namespace Maximosojo\EChartsPHP\Model\Charts;
 
-use Maxtoan\EChartBundle\Model\Chart;
-use Maxtoan\EChartBundle\Model\Options\PieChart\PieChartOptions;
+use Maximosojo\EChartsPHP\Model\Chart;
+use Maximosojo\EChartsPHP\Model\Options\PieChart\PieChartOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>

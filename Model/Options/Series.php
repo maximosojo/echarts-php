@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model\Options;
+namespace Maximosojo\EChartsPHP\Model\Options;
 
 /**
  * Series
@@ -36,8 +36,8 @@ class Series
      */
     protected $center;
 
-    use \Maxtoan\EChartBundle\Model\Traits\TypeTrait;
-    use \Maxtoan\EChartBundle\Model\Traits\DataTrait;
+    use \Maximosojo\EChartsPHP\Model\Traits\TypeTrait;
+    use \Maximosojo\EChartsPHP\Model\Traits\DataTrait;
 
     /**
      * Legend constructor.

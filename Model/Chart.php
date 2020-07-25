@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Model;
+namespace Maximosojo\EChartsPHP\Model;
 
-use Maxtoan\EChartBundle\Interfaces\ChartOptionsInterface;
+use Maximosojo\EChartsPHP\Interfaces\ChartOptionsInterface;
 
 /**
  * Chart

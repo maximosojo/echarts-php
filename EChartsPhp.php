@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle;
+namespace Maximosojo\EChartsPHP;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * MaxtoanEChartBundle
+ * EChartsPHP
  *
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class MaxtoanEChartBundle extends Bundle
+class EChartsPHP extends Bundle
 {
 }

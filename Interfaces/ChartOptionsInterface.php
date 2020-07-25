@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maxtoan\EChartBundle\Interfaces;
+namespace Maximosojo\EChartsPHP\Interfaces;
 
 /**
  * ChartOptionsInterface
