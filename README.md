@@ -1,12 +1,12 @@
 MaxtoanEChartsPHP
 ========================
 
-MaxtoanEChartsPHP desarrollado para Symfony 2.+, 3.+, proporciona una serie de gráficas.
+MaxtoanEChartsPHP desarrollado para PHP, proporciona una serie de gráficas.
 
 ## Instalación
 
 ``` bash
-$ composer require maxtoan/echart-bundle
+$ composer require maximosojo/echarts-php
 ```
 
 ## Licencia
