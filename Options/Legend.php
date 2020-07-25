@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
  * Legend
@@ -30,7 +30,7 @@ class Legend
      */
     protected $data;
 
-    use \Maximosojo\EChartsPHP\Model\Traits\AxisTrait;
+    use \Maximosojo\EChartsPHP\Traits\AxisTrait;
 
     /**
      * Legend constructor.

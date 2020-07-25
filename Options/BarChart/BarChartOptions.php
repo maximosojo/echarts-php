@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options\BarChart;
+namespace Maximosojo\EChartsPHP\Options\BarChart;
 
-use Maximosojo\EChartsPHP\Model\Options\Tooltip;
-use Maximosojo\EChartsPHP\Model\Options\Series;
-use Maximosojo\EChartsPHP\Model\Options\Toolbox;
-use Maximosojo\EChartsPHP\Model\Options\Legend;
-use Maximosojo\EChartsPHP\Model\Options\XAxis;
-use Maximosojo\EChartsPHP\Model\Options\YAxis;
+use Maximosojo\EChartsPHP\Options\Tooltip;
+use Maximosojo\EChartsPHP\Options\Series;
+use Maximosojo\EChartsPHP\Options\Toolbox;
+use Maximosojo\EChartsPHP\Options\Legend;
+use Maximosojo\EChartsPHP\Options\XAxis;
+use Maximosojo\EChartsPHP\Options\YAxis;
 
 /**
  * BarChartOptions

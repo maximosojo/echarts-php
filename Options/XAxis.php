@@ -9,30 +9,23 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Traits;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
- * TypeTrait
+ * XAxis
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-trait TypeTrait
+class XAxis
 {
+    use \Maximosojo\EChartsPHP\Traits\TypeTrait;
+    use \Maximosojo\EChartsPHP\Traits\DataTrait;
+    
     /**
-     * Type
-     * @var string
+     * Legend constructor.
      */
-    protected $type;
-
-    /**
-     * @param string $type
-     *
-     * @return $this
-     */
-    public function setType($type)
+    public function __construct()
     {
-        $this->type = $type;
-
-        return $this;
+        $this->data = new Data();
     }
 }

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Traits;
+namespace Maximosojo\EChartsPHP\Traits;
 
 /**
  * AxisTrait

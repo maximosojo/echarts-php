@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
  * YAxis
@@ -18,8 +18,8 @@ namespace Maximosojo\EChartsPHP\Model\Options;
  */
 class YAxis
 {
-    use \Maximosojo\EChartsPHP\Model\Traits\TypeTrait;
-    use \Maximosojo\EChartsPHP\Model\Traits\DataTrait;
+    use \Maximosojo\EChartsPHP\Traits\TypeTrait;
+    use \Maximosojo\EChartsPHP\Traits\DataTrait;
     
     /**
      * Legend constructor.

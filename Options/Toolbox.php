@@ -9,28 +9,28 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Traits;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
- * DataTrait
+ * Toolbox
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-trait DataTrait
+class Toolbox
 {
     /**
-     * Data
+     * Show
      * @var string
      */
-    protected $data;
+    protected $show;
 
     /**
-     * @param string $data
+     * @param string $show
      *
      * @return $this
      */
-    public function getData($data)
+    public function getShow($show)
     {
-        return $this->data;
+        return $this->show;
     }
 }

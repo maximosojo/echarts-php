@@ -1,6 +1,6 @@
 <?php
 
-namespace Maximosojo\EChartsPHP\Model\Options;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
  * Data

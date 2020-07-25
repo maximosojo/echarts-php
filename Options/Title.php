@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options;
+namespace Maximosojo\EChartsPHP\Options;
 
 /**
  * Title
@@ -30,7 +30,7 @@ class Title
      */
     protected $subtext;
 
-    use \Maximosojo\EChartsPHP\Model\Traits\AxisTrait;
+    use \Maximosojo\EChartsPHP\Traits\AxisTrait;
 
     /**
      * @param string $text

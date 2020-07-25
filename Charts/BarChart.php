@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Charts;
+namespace Maximosojo\EChartsPHP\Charts;
 
-use Maximosojo\EChartsPHP\Model\Chart;
-use Maximosojo\EChartsPHP\Model\Options\PieChart\PieChartOptions;
+use Maximosojo\EChartsPHP\Chart;
+use Maximosojo\EChartsPHP\Options\BarChart\BarChartOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class PieChart extends Chart
+class BarChart extends Chart
 {
     /**
-     * @var PieChartOptions
+     * @var BarChartOptions
      */
     protected $options;
 
@@ -28,7 +28,7 @@ class PieChart extends Chart
     {
         parent::__construct();
 
-        $this->options = new PieChartOptions();
+        $this->options = new BarChartOptions();
         $this->options->getSeries()->setType($this->getType());
     }
 
@@ -37,11 +37,11 @@ class PieChart extends Chart
      */
     public function getType()
     {
-        return 'pie';
+        return 'bar';
     }
 
     /**
-     * @return PieChartOptions
+     * @return BarChartOptions
      */
     public function getOptions()
     {
@@ -49,7 +49,7 @@ class PieChart extends Chart
     }
 
     /**
-     * @param $options PieChartOptions
+     * @param $options BarChartOptions
      *
      * @return PieChart
      */

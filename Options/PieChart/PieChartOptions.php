@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options\PieChart;
+namespace Maximosojo\EChartsPHP\Options\PieChart;
 
-use Maximosojo\EChartsPHP\Model\Options\Title;
-use Maximosojo\EChartsPHP\Model\Options\Tooltip;
-use Maximosojo\EChartsPHP\Model\Options\Legend;
-use Maximosojo\EChartsPHP\Model\Options\Series;
-use Maximosojo\EChartsPHP\Model\Options\Toolbox;
+use Maximosojo\EChartsPHP\Options\Title;
+use Maximosojo\EChartsPHP\Options\Tooltip;
+use Maximosojo\EChartsPHP\Options\Legend;
+use Maximosojo\EChartsPHP\Options\Series;
+use Maximosojo\EChartsPHP\Options\Toolbox;
 
 /**
  * PieChartOptions

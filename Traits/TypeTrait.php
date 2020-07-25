@@ -9,28 +9,30 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Model\Options;
+namespace Maximosojo\EChartsPHP\Traits;
 
 /**
- * Toolbox
+ * TypeTrait
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class Toolbox
+trait TypeTrait
 {
     /**
-     * Show
+     * Type
      * @var string
      */
-    protected $show;
+    protected $type;
 
     /**
-     * @param string $show
+     * @param string $type
      *
      * @return $this
      */
-    public function getShow($show)
+    public function setType($type)
     {
-        return $this->show;
+        $this->type = $type;
+
+        return $this;
     }
 }
