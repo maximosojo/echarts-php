@@ -22,19 +22,19 @@ class Series
      * Name
      * @var string
      */
-    protected $name;
+    public $name;
 
     /**
      * Radius
      * @var string
      */
-    protected $radius;
+    public $radius;
 
     /**
      * Center
      * @var string
      */
-    protected $center;
+    public $center;
 
     use \Maximosojo\EChartsPHP\Traits\TypeTrait;
     use \Maximosojo\EChartsPHP\Traits\DataTrait;
@@ -44,7 +44,7 @@ class Series
      */
     public function __construct()
     {
-        $this->data = new Data();
+        // $this->data = new Data();
     }
 
     /**

@@ -22,14 +22,14 @@ class Toolbox
      * Show
      * @var string
      */
-    protected $show;
+    public $show;
 
     /**
      * @param string $show
      *
      * @return $this
      */
-    public function getShow($show)
+    public function getShow()
     {
         return $this->show;
     }

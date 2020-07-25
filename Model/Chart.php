@@ -23,12 +23,12 @@ abstract class Chart
     /**
      * @var string
      */
-    protected $elementID;
+    public $elementID;
 
     /**
      * @var ChartOptionsInterface
      */
-    protected $options;
+    public $options;
 
     public function __construct()
     {

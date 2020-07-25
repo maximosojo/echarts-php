@@ -28,27 +28,27 @@ class BarChartOptions
 	/**
      * @var Legend
      */
-    protected $legend;
+    public $legend;
 
     /**
      * @var Series
      */
-    protected $series;
+    public $series;
 
     /**
      * @var Toolbox
      */
-    protected $toolbox;
+    public $toolbox;
 
     /**
      * @var XAxis
      */
-    protected $xAxis;
+    public $xAxis;
 
     /**
      * @var YAxis
      */
-    protected $yAxis;
+    public $yAxis;
 
     /**
      * BarChartOptions constructor.

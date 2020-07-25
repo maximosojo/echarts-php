@@ -22,7 +22,7 @@ class PieChart extends Chart
     /**
      * @var PieOptions
      */
-    protected $options;
+    public $options;
 
     public function __construct()
     {

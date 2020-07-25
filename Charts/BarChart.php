@@ -22,7 +22,7 @@ class BarChart extends Chart
     /**
      * @var BarChartOptions
      */
-    protected $options;
+    public $options;
 
     public function __construct()
     {

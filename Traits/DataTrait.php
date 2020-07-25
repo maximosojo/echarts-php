@@ -22,15 +22,17 @@ trait DataTrait
      * Data
      * @var string
      */
-    protected $data;
+    public $data;
 
     /**
      * @param string $data
      *
      * @return $this
      */
-    public function getData()
+    public function setData($data)
     {
-        return $this->data;
+        $this->data = $data;
+        
+        return $this;
     }
 }

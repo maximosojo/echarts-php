@@ -22,13 +22,13 @@ class Tooltip
      * Trigger
      * @var string
      */
-    protected $trigger;
+    public $trigger;
 
     /**
      * Formatter
      * @var string
      */
-    protected $formatter;
+    public $formatter;
 
     /**
      * @param string $trigger

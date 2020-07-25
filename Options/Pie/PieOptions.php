@@ -31,27 +31,27 @@ class PieOptions
      *
      * @var string
      */
-    protected $title;
+    public $title;
 
 	/**
      * @var Tooltip
      */
-    protected $tooltip;
+    public $tooltip;
 
     /**
      * @var Legend
      */
-    protected $legend;
+    public $legend;
 
     /**
      * @var Series
      */
-    protected $series;
+    public $series;
 
     /**
      * @var Toolbox
      */
-    protected $toolbox;
+    public $toolbox;
 
     /**
      * PieOptions constructor.

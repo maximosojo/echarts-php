@@ -23,14 +23,14 @@ trait AxisTrait
      *
      * @var int
      */
-    protected $x;
+    public $x;
 
     /**
      * y
      *
      * @var int
      */
-    protected $y;
+    public $y;
 
     /**
      * @param int $x

@@ -22,19 +22,19 @@ class Title
      * Text
      * @var string
      */
-    protected $text;
+    public $text;
 
     /**
      * SubText
      * @var string
      */
-    protected $subtext;
+    public $subtext;
 
     /**
      * Left
      * @var string
      */
-    protected $left;
+    public $left;
 
     // use \Maximosojo\EChartsPHP\Traits\AxisTrait;
 

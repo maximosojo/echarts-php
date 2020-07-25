@@ -36,5 +36,7 @@ class Data
     public function setArray($array)
     {
         $this->array = $array;
+        
+        return $this;
     }
 }

@@ -22,7 +22,7 @@ trait TypeTrait
      * Type
      * @var string
      */
-    protected $type;
+    public $type;
 
     /**
      * @param string $type

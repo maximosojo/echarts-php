@@ -22,31 +22,31 @@ class Legend
      * Orient
      * @var string
      */
-    protected $orient;
+    public $orient;
 
     /**
      * Right
      * @var string
      */
-    protected $right;
+    public $right;
 
     /**
      * top
      * @var string
      */
-    protected $top;
+    public $top;
 
     /**
      * Bottom
      * @var string
      */
-    protected $bottom;
+    public $bottom;
 
     /**
      * Selected
      * @var string
      */
-    protected $selected;
+    public $selected;
 
     // use \Maximosojo\EChartsPHP\Traits\AxisTrait;
     use \Maximosojo\EChartsPHP\Traits\DataTrait;
