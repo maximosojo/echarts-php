@@ -50,6 +50,7 @@ class Legend
 
     // use \Maximosojo\EChartsPHP\Traits\AxisTrait;
     use \Maximosojo\EChartsPHP\Traits\DataTrait;
+    use \Maximosojo\EChartsPHP\Traits\ShowTrait;
 
     /**
      * Legend constructor.

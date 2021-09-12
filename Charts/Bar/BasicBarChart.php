@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Charts\Pie;
+namespace Maximosojo\EChartsPHP\Charts\Bar;
 
-use Maximosojo\EChartsPHP\Charts\PieChart;
+use Maximosojo\EChartsPHP\Charts\BarChart;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class LegendChart extends PieChart
+class BasicBarChart extends BarChart
 {
 }

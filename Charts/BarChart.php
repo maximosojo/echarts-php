@@ -11,8 +11,8 @@
 
 namespace Maximosojo\EChartsPHP\Charts;
 
-use Maximosojo\EChartsPHP\Chart;
-use Maximosojo\EChartsPHP\Options\BarChart\BarChartOptions;
+use Maximosojo\EChartsPHP\Model\Chart;
+use Maximosojo\EChartsPHP\Options\Bar\BarChartOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>

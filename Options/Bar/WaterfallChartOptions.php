@@ -19,11 +19,11 @@ use Maximosojo\EChartsPHP\Options\XAxis;
 use Maximosojo\EChartsPHP\Options\YAxis;
 
 /**
- * BarChartOptions
+ * WaterfallChartOptions
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class BarChartOptions
+class WaterfallChartOptions
 {
 	/**
      * @var Legend
@@ -51,13 +51,13 @@ class BarChartOptions
     public $yAxis;
 
     /**
-     * BarChartOptions constructor.
+     * WaterfallChartOptions constructor.
      */
     public function __construct()
     {
         $this->tooltip = new Tooltip();
     	$this->legend = new Legend();
-        $this->series = new Series();
+        $this->series = [];
         $this->toolbox = new Toolbox();
         $this->xAxis = new XAxis();
         $this->yAxis = new YAxis();
@@ -82,9 +82,11 @@ class BarChartOptions
     /**
      * @return Series
      */
-    public function getSeries()
+    public function setSeries(array $series = array())
     {
-        return $this->series;
+        $this->series = $series;
+        
+        return $this;
     }
 
     /**
