@@ -19,6 +19,12 @@ namespace Maximosojo\EChartsPHP\Options;
 class Legend
 {
     /**
+     * Type
+     * @var string
+     */
+    public $type;
+
+    /**
      * Orient
      * @var string
      */
@@ -58,6 +64,18 @@ class Legend
     public function __construct()
     {
         $this->data = new Data();
+    }
+
+    /**
+     * @param string $type
+     *
+     * @return $this
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+
+        return $this;
     }
 
     /**
