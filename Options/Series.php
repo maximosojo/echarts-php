@@ -36,6 +36,12 @@ class Series
      */
     public $center;
 
+    /**
+     * Color
+     * @var array
+     */
+    public $color;
+
     use \Maximosojo\EChartsPHP\Traits\TypeTrait;
     use \Maximosojo\EChartsPHP\Traits\DataTrait;
 
@@ -79,6 +85,18 @@ class Series
     public function setCenter($center)
     {
         $this->center = $center;
+
+        return $this;
+    }
+
+    /**
+     * @param array $color
+     *
+     * @return $this
+     */
+    public function setColor(array $color)
+    {
+        $this->color = $color;
 
         return $this;
     }
