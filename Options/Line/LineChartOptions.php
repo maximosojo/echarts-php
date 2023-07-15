@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\EChartsPHP\Options\Bar;
+namespace Maximosojo\EChartsPHP\Options\Line;
 
 use Maximosojo\EChartsPHP\Options\Tooltip;
 use Maximosojo\EChartsPHP\Options\Series;
@@ -19,11 +19,11 @@ use Maximosojo\EChartsPHP\Options\XAxis;
 use Maximosojo\EChartsPHP\Options\YAxis;
 
 /**
- * BarChartOptions
+ * LineChartOptions
  * 
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class BarChartOptions
+class LineChartOptions
 {
 	/**
      * @var Legend
@@ -51,7 +51,7 @@ class BarChartOptions
     public $yAxis;
 
     /**
-     * BarChartOptions constructor.
+     * LineChartOptions constructor.
      */
     public function __construct()
     {

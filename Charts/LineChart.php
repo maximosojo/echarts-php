@@ -12,15 +12,15 @@
 namespace Maximosojo\EChartsPHP\Charts;
 
 use Maximosojo\EChartsPHP\Model\Chart;
-use Maximosojo\EChartsPHP\Options\Bar\BarChartOptions;
+use Maximosojo\EChartsPHP\Options\Line\LineChartOptions;
 
 /**
  * @author Máximo Sojo <maxsojo13@gmail.com>
  */
-class BarChart extends Chart
+class LineChart extends Chart
 {
     /**
-     * @var BarChartOptions
+     * @var LineChartOptions
      */
     public $options;
 
@@ -28,7 +28,7 @@ class BarChart extends Chart
     {
         parent::__construct();
 
-        $this->options = new BarChartOptions();
+        $this->options = new LineChartOptions();
     }
 
     /**
@@ -36,11 +36,11 @@ class BarChart extends Chart
      */
     public function getType()
     {
-        return 'bar';
+        return 'line';
     }
 
     /**
-     * @return BarChartOptions
+     * @return LineChartOptions
      */
     public function getOptions()
     {
@@ -48,7 +48,7 @@ class BarChart extends Chart
     }
 
     /**
-     * @param $options BarChartOptions
+     * @param $options LineChartOptions
      *
      * @return PieChart
      */
