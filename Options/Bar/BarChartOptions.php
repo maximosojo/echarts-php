@@ -11,7 +11,9 @@
 
 namespace Maximosojo\EChartsPHP\Options\Bar;
 
+use Maximosojo\EChartsPHP\Options\Title;
 use Maximosojo\EChartsPHP\Options\Tooltip;
+use Maximosojo\EChartsPHP\Options\Grid;
 use Maximosojo\EChartsPHP\Options\Series;
 use Maximosojo\EChartsPHP\Options\Toolbox;
 use Maximosojo\EChartsPHP\Options\Legend;
@@ -25,10 +27,24 @@ use Maximosojo\EChartsPHP\Options\YAxis;
  */
 class BarChartOptions
 {
+    /**
+     * Text to display for title.
+     *
+     * Default: no title
+     *
+     * @var string
+     */
+    public $title;
+
 	/**
      * @var Legend
      */
     public $legend;
+
+    /**
+     * @var Legend
+     */
+    public $grid;
 
     /**
      * @var Series
@@ -55,11 +71,21 @@ class BarChartOptions
      */
     public function __construct()
     {
+        $this->title = new Title();
         $this->tooltip = new Tooltip();
-    	$this->legend = new Legend();
+        $this->legend = new Legend();
+    	$this->grid = new Grid();
         $this->toolbox = new Toolbox();
         $this->xAxis = new XAxis();
         $this->yAxis = new YAxis();
+    }
+
+    /**
+     * @return Title
+     */
+    public function getTitle()
+    {
+        return $this->title;
     }
 
     /**
@@ -76,6 +102,14 @@ class BarChartOptions
     public function getLegend()
     {
         return $this->legend;
+    }
+
+    /**
+     * @return Grid
+     */
+    public function getGrid()
+    {
+        return $this->grid;
     }
 
     /**
